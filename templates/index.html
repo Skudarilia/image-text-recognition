@@ -1,0 +1,17 @@
+<!doctype html>
+<title>image-text-recognition</title>
+<h1  align="center">image-text-recognition</h1>
+<h2  align="center">Please upload new file to recognize text from image</h2>
+<form  align="center" method=post enctype=multipart/form-data>
+    <input type=file name=file>
+    <input type=submit value=Upload>
+
+</form>
+{% if filename %}
+    <div  align="center">
+        <img src="{{ url_for('display_image', filename=filename) }}">
+    </div>
+    <h3 align="center">Text from image: {{text_my}}</h3>
+{% endif %}
+
+
