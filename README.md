@@ -7,6 +7,8 @@
 
 При запуске приложения запускается сервер, на который можно перейти по http://127.0.0.1:5000/
 
+Больше о EasyOCR: https://github.com/JaidedAI/EasyOCR
+
 Примеры работы:
 
 ![image](https://user-images.githubusercontent.com/55200466/146583429-4532e7e9-dbc2-429f-8a5d-3b5438290fe3.png)
